@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conference ticket</title>
+    <link rel="stylesheet" href="conf.css">
+</head>
+<header>
+    <img src="logo-full.svg" alt="svg" class="logo">
+    <img src="pattern-circle.svg" alt="pattern-circle" class="pattern-circle2">
+</header>
+
+<body>
+    <img src="background-desktop.png" alt="background-desktop" class="background">
+    <img src="pattern-circle.svg" alt="pattern-circle" class="pattern-circle">
+    <img src="pattern-lines.svg" alt="pattern-lines" class="pattern">
+    <img src="pattern-circle.svg" alt="pattern-circle" class="pattern-circle2">
+    <img src="pattern-squiggly-line-bottom-desktop.svg" alt="pattern-squiggly-line-bottom-desktop" class="bottom-desktop">
+    <img src="pattern-squiggly-line-top.svg" alt="pattern-squiggly-line-top" class="top">
+  <div id="object">
+   <h2>Your Journey of Coding Conf<br>2025 starts here! </h2>
+    <p>secure your spot at the next year's biggest coding conference</p>
+  <div id="inner">
+    <form action="/conf.js" method="get"></form>
+    <label for="file" class="file"> Upload Avatar</label>
+    <input type="file" name="file" id="file">
+    <label for="file" class="file" id="drop-area"><div id="small"><img src="icon-upload.svg" alt="icon-upload" class="upload"></div> drag and drop or click for upload </label>
+      <label for="text" class="txt">Fullname</label>
+      <input type="text" name="text" id="text-box">
+      <label for="email" class="mail">Email Address</label>
+      <input type="email" name="email" id="email">
+      <label for="username" class="name">Github Username</label>
+      <input type="text" name="username" id="username">
+      <button type="submit">Generate My Ticket</button>
+  </div>
+  </div>
+  <script src="conf.js"></script>
+</body>
+</html>
